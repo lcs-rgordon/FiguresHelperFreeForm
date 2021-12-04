@@ -25,7 +25,7 @@ struct SphereView: View {
                 DiagramView(image: "sphere",
                             horizontalPadding: 50)
                 
-                SectionLabelView(text: "Radius")
+                SectionLabelView(text: "Radius", variable: "r")
 
                 // Input: Radius
                 Slider(value: $radius,
@@ -44,7 +44,7 @@ struct SphereView: View {
                 // Output: Radius
                 SliderValueView(value: radius)
                 
-                SectionLabelView(text: "Surface Area")
+                SectionLabelView(text: "Surface Area", variable: "")
                 
                 // Output: Area
                 OutputValueView(value: surfaceArea, suffix: "cubed units")

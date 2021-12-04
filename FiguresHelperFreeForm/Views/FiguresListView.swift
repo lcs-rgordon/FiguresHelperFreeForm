@@ -19,6 +19,13 @@ struct FiguresListView: View {
                 }, label: {
                     Text("Circle")
                 })
+
+                NavigationLink(destination: {
+                    ParallelogramView()
+                }, label: {
+                    Text("Parallelogram")
+                })
+
                 
             }, header: {
                 

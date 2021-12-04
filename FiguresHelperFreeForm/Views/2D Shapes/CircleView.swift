@@ -25,7 +25,7 @@ struct CircleView: View {
                 DiagramView(image: "circle",
                             horizontalPadding: 50)
                 
-                SectionLabelView(text: "Radius")
+                SectionLabelView(text: "Radius", variable: "r")
 
                 // Input: Radius
                 Slider(value: $radius,
@@ -44,7 +44,7 @@ struct CircleView: View {
                 // Output: Radius
                 SliderValueView(value: radius)
                 
-                SectionLabelView(text: "Area")
+                SectionLabelView(text: "Area", variable: "")
                 
                 // Output: Area
                 OutputValueView(value: area, suffix: "square units")
