@@ -16,6 +16,7 @@
 		0EA4FEF9275B8E9A00D00C6F /* SectionLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA4FEF8275B8E9900D00C6F /* SectionLabelView.swift */; };
 		0EA4FEFE275B8F8900D00C6F /* DiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA4FEFD275B8F8900D00C6F /* DiagramView.swift */; };
 		0EA4FF00275B905200D00C6F /* SliderValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA4FEFF275B905200D00C6F /* SliderValueView.swift */; };
+		0EA4FF02275B922300D00C6F /* OutputValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA4FF01275B922300D00C6F /* OutputValueView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0EA4FEF8275B8E9900D00C6F /* SectionLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionLabelView.swift; sourceTree = "<group>"; };
 		0EA4FEFD275B8F8900D00C6F /* DiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagramView.swift; sourceTree = "<group>"; };
 		0EA4FEFF275B905200D00C6F /* SliderValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderValueView.swift; sourceTree = "<group>"; };
+		0EA4FF01275B922300D00C6F /* OutputValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputValueView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				0EA4FEFD275B8F8900D00C6F /* DiagramView.swift */,
 				0EA4FEF8275B8E9900D00C6F /* SectionLabelView.swift */,
 				0EA4FEFF275B905200D00C6F /* SliderValueView.swift */,
+				0EA4FF01275B922300D00C6F /* OutputValueView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EA4FEFE275B8F8900D00C6F /* DiagramView.swift in Sources */,
+				0EA4FF02275B922300D00C6F /* OutputValueView.swift in Sources */,
 				0EA4FEF5275B894D00D00C6F /* CircleView.swift in Sources */,
 				0EA4FEF7275B89A500D00C6F /* SphereView.swift in Sources */,
 				0EA4FEF9275B8E9A00D00C6F /* SectionLabelView.swift in Sources */,

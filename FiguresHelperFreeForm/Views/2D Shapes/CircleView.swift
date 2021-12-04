@@ -44,6 +44,13 @@ struct CircleView: View {
                 // Output: Radius
                 SliderValueView(value: radius)
                 
+                SectionLabelView(text: "Area")
+                
+                // Output: Area
+                OutputValueView(value: area, suffix: "square units")
+                
+
+                
             }
             
         }
