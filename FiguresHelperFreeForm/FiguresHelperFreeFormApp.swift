@@ -11,7 +11,9 @@ import SwiftUI
 struct FiguresHelperFreeFormApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                FiguresListView()
+            }
         }
     }
 }
