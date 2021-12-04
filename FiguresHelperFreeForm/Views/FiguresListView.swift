@@ -29,7 +29,6 @@ struct FiguresListView: View {
             // 3D
             Section(content: {
                 
-                // Sphere by Arthur Shlain from NounProject.com
                 NavigationLink(destination: {
                     SphereView()
                 }, label: {
