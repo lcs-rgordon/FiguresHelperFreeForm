@@ -49,8 +49,6 @@ struct CircleView: View {
                 // Output: Area
                 OutputValueView(value: area, suffix: "square units")
                 
-
-                
             }
             
         }
